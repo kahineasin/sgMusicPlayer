@@ -63,7 +63,7 @@ set CLASSPATH=%APP_HOME%\lib\*
 
 
 @rem Execute App
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% -classpath "%CLASSPATH%" com.mygdx.game.DesktopLauncher %*
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% -classpath "%CLASSPATH%" -"Dfile.encoding=UTF8" -"Dsun.jnu.encoding=UTF8" com.neris.musicplayer.lwjgl3.Lwjgl3Launcher %*
 
 :end
 @rem End local scope for the variables with windows NT shell
